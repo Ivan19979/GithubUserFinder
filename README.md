@@ -6,5 +6,4 @@
 <p>Разработка интерфейса</p>
 <p>Поиск и отрисовка карточек</p>
 
-[Visited Website](https://github-user-finder-omega.vercel.app/)
-<a href='https://github-user-finder-omega.vercel.app/' target='_blank'>Visited Website</a>
+<a href='https://github-user-finder-omega.vercel.app/' target='_blank' rel="noreferrer">Visited Website</a>
