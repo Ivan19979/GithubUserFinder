@@ -1,0 +1,30 @@
+:global {
+  body[data-theme='light'] {
+    --ucard-bg: var(--white);
+    --bio-color: var(--gray-200);
+    --ucard-shadow: var(--shadow);
+  }
+
+  body[data-theme='dark'] {
+    --ucard-bg: var(--gray-400);
+    --bio-color: var(--white);
+    --ucard-shadow: unset;
+  }
+}
+
+.loader{
+  margin:  1.5rem 0 3rem;
+  width: 100%;
+  height: 50%;
+  padding: 30px 24px;
+  background-color: var(--ucard-bg);
+  box-shadow: var(--ucard-shadow);
+  border-radius: 15px;
+
+  img{
+    width: 100%;
+    margin: -42px 0;
+    background-color: transparent;
+  }
+}
+
